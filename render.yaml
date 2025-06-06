@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wanderlust-app
+    env: node
+    buildCommand: npm install
+    startCommand: node app.js
+    plan: free
+    branch: main
+    autoDeploy: true
