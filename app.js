@@ -31,7 +31,8 @@ async function main() {
 }
 
 app.get("/", (req, res) => {
-  res.send("hi , i am the root");
+  //res.send("hi , i am the root");
+  res.render("home");
 });
 
 //Middleware function for joi schema validation of listings

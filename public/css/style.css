@@ -131,3 +131,61 @@ body {
 .card-text {
   padding-top: 10px;
 }
+
+/* home page*/
+
+.home-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  cursor: pointer;
+}
+
+.homepage-bg {
+  background: url("/images/homebg.png");
+  background-repeat: no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.home-hero {
+  padding: 20px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #1e88e5;
+  margin-bottom: 20px;
+}
+
+.home-subtext {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.home-cta-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #1e88e5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.home-cta-btn:hover {
+  transform: scale(1.05);
+  color: white;
+  text-decoration: none;
+}
